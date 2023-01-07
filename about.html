@@ -1,17 +1,143 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Remember to link to your CSS file! -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <img id="banner" alt="Banner logo" src="./assets/banner.png">
+<title>Document</title>
+<!-- Remember to link to your CSS file! -->
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
-    <!-- ABOUT PAGE -->
-    <!-- TODO: Navbar here -->
-    <!-- TODO: Banner Image here-->
-    <main>
-        <!-- About page code here -->
-    </main>
+<!-- ABOUT PAGE -->
+<nav>
+    <ul>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="menu.html">Menu</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>
+    </ul>
+</nav>
+<div id="banner">
+    <img src="assets/images/banner.png" alt="Banner">
+</div>
+<main>
+    <h1>About Us</h1>
+    <h2>Our Locations</h2>
+</div>
+<main>
+    <h2>Hours of Operation</h2>
+    <p>
+        <strong>Monday-Friday:</strong> 11:00am-8:30pm
+    </p>
+    <p>
+        <strong>Saturday-Sunday:</strong> 1:00pm-10:00pm
+    </p>
+    <h2>Contact Info</h2>
+    <p>
+        <strong><i class="fa fa-phone"></i> Phone Number:</strong> 555-555-1234
+    </p>
+    <ul>
+        <li>Houston, TX</li>
+        <li>Seattle, WA</li>
+        <li>Tampa, FL</li>
+        <li>Wilmington, WA</li>
+    </ul>
+    <h2>Origin Story</h2>
+    <img src="assets/images/about.jpg" alt="Spices">
+    <p>
+        It all started in Houston, TX when a computer science student tasted a spoonful of curry for the first time and discovered a love of spices...
+    </p>
+</main>
 </body>
 </html>
+html,
+body {
+margin: 0;
+padding: 0;
+background-color: beige;
+text-align: center;
+}
+
+h1,
+h2 {
+color: darkred;
+}
+
+h3, 
+p,
+li {
+color: green;
+}
+
+img {
+width: 100%;
+height: auto;
+max-width: 100%;
+}
+
+main {
+margin: 0 20%;
+}
+
+nav {
+background-color: beige;
+padding: 10px;
+}
+
+nav ul {
+list-style-type: none;
+text-align: center;
+}
+
+nav li {
+display: inline;
+}
+
+nav a {
+text-decoration: none;
+font-size: 1.6em;
+color: green;
+margin-right: 25px;
+}
+
+nav a:hover {
+color: darkred;
+}
+
+#banner {
+width: 100%;
+height: auto;
+background-color: white;
+}
+
+#banner img {
+width: 60%;
+height: auto;
+}
+
+.service {
+display: inline-block;
+background-color: white;
+border: 5px solid green;
+border-radius: 5px;
+color: darkred;
+font-size: 2em;
+padding: 20px;
+margin: 10px;
+}
+
+table {
+border: 3px solid black;
+width: 100%;
+}
+
+td,
+th {
+border: 1px solid black;
+padding: 5px;
+}
